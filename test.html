@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Footer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .footer h5 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .footer a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #007bff;
+        }
+
+        .footer .social-icons a {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: #bbb;
+            transition: color 0.3s ease;
+        }
+
+        .footer .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .footer .newsletter input[type="email"] {
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            margin-right: 10px;
+            width: 70%;
+        }
+
+        .footer .newsletter button {
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer .newsletter button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer-bottom {
+            background-color: #222;
+            padding: 20px 0;
+            text-align: center;
+            color: #bbb;
+            margin-top: 40px;
+        }
+
+        .footer-bottom a {
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Advanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-lg-4 col-md-6">
+                    <h5>About Us</h5>
+                    <p>We provide high-quality clothing and accessories that blend tradition with modern fashion trends. Visit us to explore our exclusive collections.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Lookbook</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Customer Service -->
+                <div class="col-lg-2 col-md-6">
+                    <h5>Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter Subscription -->
+                <div class="col-lg-4 col-md-6">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <p>Stay updated with our latest collections, offers, and events by subscribing to our newsletter.</p>
+                    <form class="newsletter d-flex">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 SariAndSilkAustralia. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
